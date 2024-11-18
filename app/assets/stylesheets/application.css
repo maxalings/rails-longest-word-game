@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+ .letter-box {
+  display: inline-block;
+  width: 50px; /* Adjust the width of the box */
+  height: 50px; /* Adjust the height of the box to make it square */
+  text-align: center;
+  line-height: 50px; /* Centers the letter vertically */
+  border: 1px solid #000; /* Border around the box */
+  margin: 5px; /* Optional, adds space between boxes */
+  font-size: 20px; /* Adjust the font size */
+  background-color: #f0f0f0; /* Optional, adds background color */
+}
